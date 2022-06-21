@@ -1,0 +1,95 @@
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+}
+
+.icon{
+    margin: 1rem;
+    color: var(--color-secundario);
+}
+
+.icon:hover{
+    color: aqua;
+}
+.icono{
+    position: relative;
+    margin-left: 0.5rem;
+    top: 0.2rem;
+}
+
+.texto{
+    width:40%;
+}
+.texto h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem 0rem;
+    line-height: 3.5rem;
+}
+.texto h3{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 1rem 0rem;
+}
+.texto p{
+    font-size: .938;
+    margin: 1rem 0rem;
+}
+
+.texto a{
+    padding: 1rem;
+    width: 10rem;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    margin: 2rem 0rem;
+}
+
+.texto a:hover{
+    filter: brightness(0.9);
+}
+.home img{
+    margin-left: 3rem;
+    width: 320px;
+    height: 320px;
+    border-radius:50% ;
+    background-color: red;
+}
+
+@media only screen and (max-width: 790px){
+    body{
+        margin: auto;
+    }
+    .home{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto{
+        width: 70%;
+    }
+    .home img{
+        position: relative;
+        left: -9%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .redes{
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 4rem;
+        width: 60%;
+    }
+}
