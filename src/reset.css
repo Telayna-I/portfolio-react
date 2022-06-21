@@ -27,18 +27,7 @@
 }
   
 /* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
-  :root{
-    --color-primario   : #181818;
-    --color-secundario : #f0f0f0;
-  }
-}
-@media (prefers-color-scheme: light) {
-  :root{
-    --color-primario   : #181818;
-    --color-secundario : #f0f0f0;  
-  }
-}
+
 
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
@@ -186,8 +175,8 @@ body {
   min-height  : 100vh;
   font-size   : 100%;
   font-family : var(--tipo-principal);
-  color       : var(--color-primario);
-  background-color: var(--color-secundario);
+  color       : var(--color-secundario);
+  background-color: var(--color-primario);
   /* padding-top: 7.5rem; */
   /* opcional */ line-height: 1.4em;
   /* opcional */ hyphens: auto;

@@ -26,20 +26,26 @@ const NavBar = () => {
                 
                 
                 <a className = {"nav-link"} onClick={showNavBar}
-                >Tablero
+                >Sobre mi
                 </a>
                 
                 
                 <a className = {"nav-link"}
                 onClick={showNavBar}
-                >Seguimiento
+                >Skills
                 </a>
                 
 
                 
                 <a className = {"nav-link"}
                 onClick={showNavBar}
-                >Generar pedido
+                >Portfolio
+                </a>
+
+
+                <a className = {"nav-link"}
+                onClick={showNavBar}
+                >Contacto
                 </a>
                 
                 

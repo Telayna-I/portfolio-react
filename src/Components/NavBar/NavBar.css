@@ -4,14 +4,16 @@ body{
 
 
 header{
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     padding: 0 2rem;
     color: var(--color-secundario);
-    box-shadow: 0 1px 5px #122;
-    z-index: 1000000;
+    /* box-shadow: 0 1px 5px #122; */
+    z-index: 1000;
 }
 
 .logo{
@@ -28,24 +30,24 @@ nav .nav-link{
     margin: 0 1rem;
     padding: 0.5rem 0.5rem;
     border-radius: 5px;
-    font-size: .950rem;
+    font-size: .875rem;
     text-decoration: none;
-    color: var(--color-primario);
-    font-weight: 500;
+    color: var(--color-secundario);
+    font-weight: bold;
     cursor: pointer;
 }
 
 .nav-link:hover{
-    color:var(--color-secundario) ;
+    /* color:#626262 ; */
+    color:black ;
 }
 
 header .nav-btn{
     padding: 5px;
     cursor: pointer;
-    background: transparent;
     border: none;
     outline: none;
-    color: #f0f0f0;
+    color: var(--color-secundario);
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
@@ -66,7 +68,7 @@ header .nav-btn{
     }
 
     .nav-link:hover{
-        background-color: #511334;
+        background-color: #e2e2e2;
     }
     
     header nav{
@@ -79,7 +81,7 @@ header .nav-btn{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: #3c0120;
+        background-color: #f0f0f0;
         gap: 1.5rem;
         z-index: 100000;
         transition: 1s;
