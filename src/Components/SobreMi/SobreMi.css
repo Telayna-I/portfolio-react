@@ -1,0 +1,40 @@
+.sobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.sobreMi h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle-sobreMi{
+    font-size: .875rem;
+    margin-bottom: 3rem;
+}
+.text-sobreMi{
+    margin-bottom: 2rem;
+}
+.sobreMi a{
+    align-self: flex-start;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    
+}
+.sobreMi a:hover{
+    filter: brightness(0.9);
+}
+
+@media only screen and (max-width: 790px){
+    .sobreMi{
+        width: 70%;
+    }
+}

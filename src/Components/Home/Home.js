@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { FaLinkedin, FaWhatsapp, FaGithub, FaPaperPlane } from "react-icons/fa";
 import './Home.css'
 
