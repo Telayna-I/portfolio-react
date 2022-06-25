@@ -33,6 +33,11 @@
     filter: brightness(0.9);
 }
 
+.download-icon{
+    position: relative;
+    top: 3px;
+}
+
 @media only screen and (max-width: 790px){
     .sobreMi{
         width: 70%;

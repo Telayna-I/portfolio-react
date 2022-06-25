@@ -7,9 +7,9 @@ const Home = () => {
         <main className="main">
             <section className="home">
                 <div className="redes">
-                    <FaLinkedin className='icon' />
-                    <FaWhatsapp className='icon' />
-                    <FaGithub className='icon' />
+                    <a href="https://www.linkedin.com/in/telaynafrontend/" target="_blank"><FaLinkedin className='icon' /></a>
+                    <a href="https://wa.me/542932534436" target="_blank"><FaWhatsapp className='icon' /></a>
+                    <a href="https://github.com/Telayna-I" target="_blank"><FaGithub className='icon' /></a>
                 </div>
                 <div className="texto">
                     <h1>Hola, soy Iñaki</h1>
