@@ -5,7 +5,7 @@ import './Trabajos.css'
 
 const Trabajos = () => {
     return (
-        <section className='trabajos'>
+        <section id='Portfolio' className='trabajos'>
             <h2 className='works-title'>Trabajos</h2>
             <div className='works-container'>
                 <div className='card'>

@@ -20,30 +20,30 @@ const NavBar = () => {
             <a  className = "logo">Iñaki Telayna</a>
             <nav ref={navRef}>
                 
-                <a className = {"nav-link"} onClick={showNavBar}
+                <a href='#Home' className = {"nav-link"} onClick={showNavBar}
                 >Home
                 </a>
                 
                 
-                <a className = {"nav-link"} onClick={showNavBar}
+                <a href='#SobreMi' className = {"nav-link"} onClick={showNavBar}
                 >Sobre mi
                 </a>
                 
                 
-                <a className = {"nav-link"}
+                <a href='#Skills' className = {"nav-link"}
                 onClick={showNavBar}
                 >Skills
                 </a>
                 
 
                 
-                <a className = {"nav-link"}
+                <a href='#Portfolio' className = {"nav-link"}
                 onClick={showNavBar}
                 >Portfolio
                 </a>
 
 
-                <a className = {"nav-link"}
+                <a href='#Contacto' className = {"nav-link"}
                 onClick={showNavBar}
                 >Contacto
                 </a>

@@ -6,30 +6,30 @@ import './Skills.css'
 
 const Skills = () => {
     return (
-        <section class="skills">
+        <section id='Skills' className="skills">
             <h2>Skills</h2>
-            <div class="skills-grid-container">
-                <div class="skilli html">
+            <div className="skills-grid-container">
+                <div className="skilli html">
                     <FaHtml5 className='fab'/>
                     <p>HTML5</p>
                 </div>
-                <div class="skilli css">
+                <div className="skilli css">
                     <FaCss3Alt className='fab'/>
                     <p>CSS3</p>
                 </div>
-                <div class="skilli git">
+                <div className="skilli git">
                     <FaGitAlt className='fab'/>
                     <p>Git</p>
                 </div>
-                <div class="skilli javascript">
+                <div className="skilli javascript">
                     <IoLogoJavascript className='fab'/>
                     <p>javaScript</p>
                 </div>
-                <div class="skilli">
+                <div className="skilli">
                     <SiJquery className='fab'/>
                     <p>Jquery</p>
                 </div>
-                <div class="skilli gitHub">
+                <div className="skilli gitHub">
                     <FaReact className='fab'/>
                     <p>React Js</p>
                 </div>

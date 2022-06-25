@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <main className="main">
-            <section className="home">
+            <section id='Home' className="home">
                 <div className="redes">
                     <a href="https://www.linkedin.com/in/telaynafrontend/" target="_blank"><FaLinkedin className='icon' /></a>
                     <a href="https://wa.me/542932534436" target="_blank"><FaWhatsapp className='icon' /></a>
@@ -15,7 +15,7 @@ const Home = () => {
                     <h1>Hola, soy Iñaki</h1>
                     <h3>Frontend developer</h3>
                     <p>Profesional de alto nivel desarrollando webs, produciendo trabajos de calidad.</p>
-                    <a href="#conacto">Contactame<FaPaperPlane className='icono'/></a>
+                    <a href="#Contacto">Contactame<FaPaperPlane className='icono'/></a>
                 </div>
                 <img src='https://res.cloudinary.com/telayna-i/image/upload/v1655849623/WhatsApp_Image_2022-06-21_at_7.01.48_PM_yvojfb.jpg'/>
             </section>

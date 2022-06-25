@@ -1,0 +1,83 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.contacto h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.contacto form{
+    width: 30% ;
+
+}
+.campo{
+    display: flex;
+    width: 100%;
+    border: 3px solid aqua;
+    border-radius: 0.3rem;
+    margin: 1rem;
+}
+
+.input-icon{
+    position: relative;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.input-form{
+    width: 100%;
+}
+
+.button-submit{
+    padding: 0.5rem;
+    background-color: aqua;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.button-icon{
+    position: relative;
+    font-size: 0.9rem;
+    top: 1px;
+}
+.textarea{
+    resize: none ;
+}
+
+.message{
+    margin-left: 1.2rem;
+}
+
+.icon-error{
+    position: relative;
+    top: 3px;
+    margin-left: 0.4rem;
+}
+
+@media only screen and (max-width: 740px){
+    .contacto form{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .contacto form{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 340px){
+    .contacto form{
+        width: 80%;
+    }
+}
