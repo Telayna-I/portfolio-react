@@ -24,8 +24,8 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>App pedidos</h2>
                     <div className='links'>
-                        <a className="link" target="_blank"> <FaPlay className='link-icon'/> Demo</a>
-                        <a href='https://github.com/Telayna-I/pedidos' className="link" target="_blank"> <FaCode className='link-icon'/> Codigo</a>
+                        <a href='https://demo-pedidos.vercel.app/' className="link" target="_blank"> <FaPlay className='link-icon'/> Demo</a>
+                        <a href='https://github.com/Telayna-I/demo-pedidos' className="link" target="_blank"> <FaCode className='link-icon'/> Codigo</a>
                     </div>
                 </div>
                 <div className='card'>
