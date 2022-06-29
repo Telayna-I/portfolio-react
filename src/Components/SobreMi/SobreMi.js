@@ -7,7 +7,7 @@ const SobreMi = () => {
             <p className="subtitle-sobreMi" >Mi introduccion</p>
 
             <p className="text-sobreMi">Analista de sistemas, Frontend React Developer Jr. Soy una persona con un perfil fuertemente orientado a la tecnología. Me destaco por mis ganas de aprender y nutrirme constantemente del trabajo en equipo.</p>
-            <a href="">Descargar CV <FaCloudDownloadAlt className="download-icon"/></a>
+            <a href="../../Assets/cv-telayna.pdf">Descargar CV <FaCloudDownloadAlt className="download-icon"/></a>
         </section>
     )
 }
