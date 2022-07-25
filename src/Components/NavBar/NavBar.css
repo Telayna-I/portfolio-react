@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     height: 70px;
     text-align: center;
-    padding: 0 2rem;
+    padding: 0 3rem;
     color: var(--color-secundario);
     background-color: var(--color-primario);
     /* box-shadow: 0 1px 5px #122; */
@@ -87,7 +87,7 @@ header .nav-btn{
         gap: 1.5rem;
         z-index: 100000;
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateY(-105vh);
     }
 
     header .responsive_nav{

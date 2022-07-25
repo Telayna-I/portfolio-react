@@ -20,27 +20,45 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 300px;
+    width: 450px;
+    height: 37.938rem;
     padding: 15px;
-    margin: 2rem;
     border-radius: 5px;
     align-items: center;
     overflow: hidden;
+    margin: auto;
+    margin: 2rem;
     box-shadow: 0 1rem 3rem rgba(10, 10, 10, 0.3);
     border: 1px solid rgba(10, 10, 10, 0.1);
 
     transition:ease-in-out 0.3s;
 }
 
+.info{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info p{
+    font-size: .875rem;
+}
+
+.check{
+    position: relative;
+    top: 2px;
+    color: #25D366;
+    margin-right: 0.1rem;
+}
+
 .card .img-container{
     width: 100%;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
 }
 
 .card .img-container img{
     display: block;
-    height: 200px;
+    height: 300px;
     object-fit: scale-down;
 }
 
@@ -73,4 +91,15 @@
 .card:hover{
     transform: scale(1.1,1.1);
     
+}
+
+@media only screen and (max-width: 414px){
+    .card{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .card{
+        width: 300px;
+    }
 }
