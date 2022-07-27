@@ -72,6 +72,21 @@ const Trabajos = () => {
                 </div>
                 <div className='card'>
                     <div className='img-container'>
+                        <img src= 'https://res.cloudinary.com/telayna-i/image/upload/v1658951707/smartmockups_l640zlgt_qkr31u.jpg'/>
+                    </div>
+                    <h2 className='card-title'>Breaking Bad API</h2>
+                    <div className='info'>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Consumiendo la API de Breaking Bad.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Permite ver el listado de todos los personajes con su respectiva informacion.</p>
+                    </div>
+                    <div className='links'>
+                        <a href='https://breaking-bad-nu-one.vercel.app/' className="link" target="_blank"> <FaPlay className='link-icon'/> Demo</a>
+                        <a href='https://github.com/Telayna-I/BreakingBad' className="link" target="_blank"> <FaCode className='link-icon'/> Código</a>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='img-container'>
                         <img src= 'https://res.cloudinary.com/telayna-i/image/upload/v1658782341/smartmockups_l61863vy_huxfm1.jpg'/>
                     </div>
                     <h2 className='card-title'>Portfolio para Diseñadora grafica</h2>
