@@ -12,6 +12,20 @@ const Trabajos = () => {
             <div className='works-container'>
                 <div className='card'>
                     <div className='img-container'>
+                        <img src= 'https://res.cloudinary.com/telayna-i/image/upload/v1659130755/smartmockups_l66zlnmh_yhh8sf.jpg' alt ='product-img'/>
+                    </div>
+                    <h2 className='card-title'>Clon MercadoLibre</h2>
+                    <div className='info'>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs y Styled Components.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Clon visual (acceder desde PC)</p>
+                    </div>
+                    <div className='links'>
+                        <a href='https://ml-clone-eta.vercel.app/' target="_blank" className="link"> <FaPlay className='link-icon'/> Demo</a>
+                        <a href='https://github.com/Telayna-I/ml-clone' className="link" target="_blank"> <FaCode className='link-icon'/> Código</a>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='img-container'>
                         <img src= 'https://res.cloudinary.com/telayna-i/image/upload/v1656116090/e-comerce_es2pzd.jpg' alt ='product-img'/>
                     </div>
                     <h2 className='card-title'>E commerce</h2>
