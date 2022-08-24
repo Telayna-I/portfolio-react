@@ -16,7 +16,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>Clon MercadoLibre</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs y Styled Components.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span>, <span className='bold'>Redux</span> y <span className='bold'>Styled Components.</span></p>
                         <p><BsFillBookmarkCheckFill className='check'/>Clon visual (acceder desde PC)</p>
                     </div>
                     <div className='links'>
@@ -30,7 +30,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>E commerce</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs en conjunto con Firebase.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> en conjunto con <span className='bold'>Firebase</span>.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Inicio de sesión tradicional y con cuenta de Google, registro de usuarios.</p>
                     </div>
                     <div className='links'>
@@ -44,7 +44,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>DLT Seguros</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado HTML CSS BOOTSTRAP y una pizca de JavaScript.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado <span className='bold'>HTML</span>, <span className='bold'>CSS3</span>, <span className='bold'>BOOTSTRAP</span> y una pizca de <span className='bold'>JavaScript</span>.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Trabajo en conjunto con un diseñador y otro desarrollador.</p>
                     </div>
                     <div className='links'>
@@ -58,7 +58,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>App pedidos</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs en conjunto con Firebase.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> en conjunto con <span className='bold'>Firebase</span>.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Permite tomar pedidos y visualizarlos en un tablero.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Dichos pedidos se pueden editar, eliminar o marcar como completados.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Cuenta con una funcionalidad para ver el estado del pedido (cliente).</p>
@@ -74,7 +74,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>Rick and Morty API</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span>.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Consumiendo la API de Rick y Morty.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Permite ver un listado de 20 personajes por pagina.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Clic en el nombre del personaje para más información.</p>
@@ -90,7 +90,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>Breaking Bad API</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span>.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Consumiendo la API de Breaking Bad.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Permite ver el listado de todos los personajes con su respectiva informacion.</p>
                     </div>
@@ -105,7 +105,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>Portfolio para Diseñadora grafica</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en ReactJs.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> .</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Trabajo en conjunto con un diseñador y otro desarrollador.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Cuenta con un formulario de contacto funcional.</p>
                     </div>

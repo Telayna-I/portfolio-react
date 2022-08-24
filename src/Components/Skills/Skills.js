@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
-import { SiJquery, SiStyledcomponents } from 'react-icons/si'
+import { SiJquery, SiStyledcomponents, SiRedux } from 'react-icons/si'
 import './Skills.css'
 
 const Skills = () => {
@@ -29,13 +29,17 @@ const Skills = () => {
                     <SiJquery className='fab'/>
                     <p>Jquery</p>
                 </div>
-                <div className="skilli">
-                    <SiStyledcomponents className='fab styled'/>
-                    <p>Styled Components</p>
-                </div>
                 <div className="skilli gitHub">
                     <FaReact className='fab'/>
                     <p>React Js</p>
+                </div>
+                <div className="skilli gitHub">
+                    <SiRedux className='fab'/>
+                    <p>Redux</p>
+                </div>
+                <div className="skilli">
+                    <SiStyledcomponents className='fab styled'/>
+                    <p>Styled Components</p>
                 </div>
             </div>
         </section>

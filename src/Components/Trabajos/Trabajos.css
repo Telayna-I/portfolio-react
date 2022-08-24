@@ -67,7 +67,9 @@
     font-weight: bold;
     margin: 1rem 0;
 }
-
+.bold{
+    font-weight: bold;
+}
 .link{
     cursor: pointer;
     padding: 0.5rem;
