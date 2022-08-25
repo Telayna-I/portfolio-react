@@ -16,7 +16,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>Clon MercadoLibre</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span>, <span className='bold'>Redux</span> y <span className='bold'>Styled Components.</span></p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> y <span className='bold'>Styled Components.</span></p>
                         <p><BsFillBookmarkCheckFill className='check'/>Clon visual (acceder desde PC)</p>
                     </div>
                     <div className='links'>
@@ -30,7 +30,7 @@ const Trabajos = () => {
                     </div>
                     <h2 className='card-title'>E commerce</h2>
                     <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> en conjunto con <span className='bold'>Firebase</span>.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> en conjunto con <span className='bold'>Redux</span> y <span className='bold'>Firebase</span>.</p>
                         <p><BsFillBookmarkCheckFill className='check'/>Inicio de sesión tradicional y con cuenta de Google, registro de usuarios.</p>
                     </div>
                     <div className='links'>

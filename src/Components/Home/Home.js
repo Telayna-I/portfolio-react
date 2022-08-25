@@ -7,7 +7,7 @@ const Home = () => {
         <main className="main">
             <section id='Home' className="home">
                 <div className="redes">
-                    <a href="https://www.linkedin.com/in/telaynafrontend/" target="_blank"><FaLinkedin className='icon' /></a>
+                    <a href="https://www.linkedin.com/in/telayna-frontend/" target="_blank"><FaLinkedin className='icon' /></a>
                     <a href="https://wa.me/542932534436" target="_blank"><FaWhatsapp className='icon' /></a>
                     <a href="https://github.com/Telayna-I" target="_blank"><FaGithub className='icon' /></a>
                 </div>
