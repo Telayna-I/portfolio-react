@@ -35,7 +35,7 @@ const Skills = () => {
                 </div>
                 <div className="skilli javascript">
                     <IoLogoJavascript className='fab'/>
-                    <p>javaScript</p>
+                    <p>JavaScript</p>
                 </div>
                 <div className="skilli">
                     <SiJquery className='fab'/>
