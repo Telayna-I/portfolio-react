@@ -10,6 +10,22 @@ const Trabajos = () => {
         <section id='Portfolio' className='trabajos'>
             <h2 className='works-title'>Trabajos</h2>
             <div className='works-container'>
+            <div className='card'>
+                    <div className='img-container'>
+                        <img src= 'https://res.cloudinary.com/telayna-i/image/upload/v1656116090/pedidos_gxnvxi.jpg'/>
+                    </div>
+                    <h2 className='card-title'>App pedidos</h2>
+                    <div className='info'>
+                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> en conjunto con <span className='bold'>Firebase</span>.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Permite tomar pedidos y visualizarlos en un tablero.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Dichos pedidos se pueden editar, eliminar o marcar como completados.</p>
+                        <p><BsFillBookmarkCheckFill className='check'/>Cuenta con una funcionalidad para ver el estado del pedido (cliente).</p>
+                    </div>
+                    <div className='links'>
+                        <a href='https://demo-pedidos.vercel.app/' className="link" target="_blank"> <FaPlay className='link-icon'/> Demo</a>
+                        <a href='https://github.com/Telayna-I/demo-pedidos' className="link" target="_blank"> <FaCode className='link-icon'/> Código</a>
+                    </div>
+                </div>
                 <div className='card'>
                     <div className='img-container'>
                         <img src= 'https://res.cloudinary.com/telayna-i/image/upload/v1659130755/smartmockups_l66zlnmh_yhh8sf.jpg' alt ='product-img'/>
@@ -50,22 +66,6 @@ const Trabajos = () => {
                     <div className='links'>
                         <a href='https://telayna-i.github.io/DLT/' className="link" target="_blank"> <FaPlay className='link-icon'/> Demo</a>
                         <a href='https://github.com/Telayna-I/DLT' className="link" target="_blank"> <FaCode className='link-icon'/> Código</a>
-                    </div>
-                </div>
-                <div className='card'>
-                    <div className='img-container'>
-                        <img src= 'https://res.cloudinary.com/telayna-i/image/upload/v1656116090/pedidos_gxnvxi.jpg'/>
-                    </div>
-                    <h2 className='card-title'>App pedidos</h2>
-                    <div className='info'>
-                        <p><BsFillBookmarkCheckFill className='check'/>Desarrollado en <span className='bold'>ReactJs</span> en conjunto con <span className='bold'>Firebase</span>.</p>
-                        <p><BsFillBookmarkCheckFill className='check'/>Permite tomar pedidos y visualizarlos en un tablero.</p>
-                        <p><BsFillBookmarkCheckFill className='check'/>Dichos pedidos se pueden editar, eliminar o marcar como completados.</p>
-                        <p><BsFillBookmarkCheckFill className='check'/>Cuenta con una funcionalidad para ver el estado del pedido (cliente).</p>
-                    </div>
-                    <div className='links'>
-                        <a href='https://demo-pedidos.vercel.app/' className="link" target="_blank"> <FaPlay className='link-icon'/> Demo</a>
-                        <a href='https://github.com/Telayna-I/demo-pedidos' className="link" target="_blank"> <FaCode className='link-icon'/> Código</a>
                     </div>
                 </div>
                 <div className='card'>

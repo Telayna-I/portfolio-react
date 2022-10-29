@@ -19,6 +19,7 @@
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #fff;
     width: 450px;
     height: 37.938rem;
